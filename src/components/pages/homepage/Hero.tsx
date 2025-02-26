@@ -27,7 +27,7 @@ const Hero = () => {
           and fulfillment of set goals.
         </p>
 
-        <div className="mx-auto grid max-w-[1000px] grid-cols-1 gap-10 pb-60 pt-20 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-[1000px] grid-cols-1 gap-x-10 gap-y-44 pb-60 pt-20 lg:grid-cols-3">
           <FlipCard
             title="Experience"
             description="Our reliability and efficiency are confirmed by years of experience and numerous satisfied clients."

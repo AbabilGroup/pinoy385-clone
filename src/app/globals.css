@@ -10,6 +10,23 @@
   font-style: normal;
 }
 
+*::selection {
+  background-color: #d32639;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d32639;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -83,7 +100,7 @@
   transform-style: preserve-3d;
 }
 .card:hover .card__content {
-  transform: rotateX(0.5turn);
+  transform: rotateY(0.5turn);
 }
 
 .card__front,
@@ -91,5 +108,5 @@
   backface-visibility: hidden;
 }
 .card__back {
-  transform: rotateX(0.5turn);
+  transform: rotateY(0.5turn);
 }
